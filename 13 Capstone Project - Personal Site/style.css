@@ -1,0 +1,52 @@
+.main-header {
+    height: 250px;
+    background-color: #FFBB70;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.name {
+    color: #FFFBDA;
+    font-family: "Sacramento", cursive;
+    font-weight: 500;
+    font-style: oblique;
+    white-space: nowrap; 
+    font-size: 6em;
+}
+.navbar.custom-navbar {
+    background-color: #FFFBDA !important;
+}
+.p-5.text-center.bg-body-tertiary.custom-jumbotron{
+    background-color: #f7f2c4 !important;
+    background-image: url('./pythony.png') !important;
+    background-size: cover; 
+    background-position: center; 
+    
+    
+}
+.profilowe{
+    width: 10em;
+    border-radius: 20px;
+}
+.custom-capabilities{
+    background-color: #FFFBDA !important;
+}
+.button-github{
+    background-color: #640D6B !important;
+    border-color: #640D6B;
+}
+.capabilities-header{
+    font-size: 2.5em;
+}
+.custom-footer{
+    background-color: #ED9455;
+    margin-top: 0 !important; /* Usuwa marginesy */
+    border: none !important; /* Usuwa obramowanie */
+}
+.custom-form{
+    background-color: #f7f2c4;
+}
