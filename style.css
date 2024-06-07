@@ -11,7 +11,12 @@
 @media (max-width: 768px) {
     .main-header {
         height: auto; /* Ustawienie wysokości na auto, aby dostosować się do zawartości */
-        padding: 20px; /* Dodanie wewnętrznego marginesu dla lepszego wyglądu */
+        padding: 20px;
+        background-color: #FFBB70;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;/* Dodanie wewnętrznego marginesu dla lepszego wyglądu */
     }
 }
 .name {
