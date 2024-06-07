@@ -1,5 +1,5 @@
 .main-header {
-    height: 240px;
+    height: 250px;
     background-color: #FFBB70;
     display: flex;
     flex-direction: column;
@@ -8,17 +8,6 @@
     
     
 }
-@media (max-width: 768px) {
-    .main-header {
-        height: 1rem; /* Ustawienie wysokości na auto, aby dostosować się do zawartości */
-        padding: 20px;
-        background-color: #FFBB70;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;/* Dodanie wewnętrznego marginesu dla lepszego wyglądu */
-    }
-}
 .name {
     color: #FFFBDA;
     font-family: "Sacramento", cursive;
@@ -26,6 +15,16 @@
     font-style: oblique;
     white-space: nowrap; 
     font-size: 6em;
+}
+@media(max-width: 768px){
+    .name {
+    color: #FFFBDA;
+    font-family: "Sacramento", cursive;
+    font-weight: 500;
+    font-style: oblique;
+    white-space: nowrap; 
+    font-size: 4em;
+    }
 }
 .navbar.custom-navbar {
     background-color: #FFFBDA !important;
